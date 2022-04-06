@@ -20,7 +20,12 @@
 # along with NEST.  If not, see <http://www.gnu.org/licenses/>.
 
 from __future__ import annotations
+<<<<<<< HEAD
 from typing import Any, List, Mapping, Optional, Sequence, TextIO
+=======
+
+from typing import Any, Mapping, Optional, Sequence, Union
+>>>>>>> master
 
 import os
 import platform

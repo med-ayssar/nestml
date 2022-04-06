@@ -1,4 +1,5 @@
   
+
   struct Parameters_
   {
 {%- filter indent(4,True) %}
@@ -6,7 +7,7 @@
 {%- include 'directives/MemberDeclaration.jinja2' %}
 {%- endfor %}
 {%- endfilter %}
-{%- if useGSL %}
+{%- if uses_numeric_solver %}
 
     double __gsl_error_tol;
 {%- endif %}

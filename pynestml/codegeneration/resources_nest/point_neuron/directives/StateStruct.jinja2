@@ -1,8 +1,8 @@
- 
- 
- struct State_
+
+
+struct State_
   {
-{%- if not useGSL %}
+{%- if not uses_numeric_solver %}
 {%-   if has_state_vectors %}
 {%      include "directives/StateVariablesEnum.jinja2" %}
 {%-   endif %}
